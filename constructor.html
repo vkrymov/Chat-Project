@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+<title>Конструктор чат бота</title>
+<style>
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+*{margin: 0;padding:0px}
+
+                .header{
+                    width: 100%;
+                    background-color: #0d77b6 !important;
+                    height: 60px;
+                }
+
+ .plus {
+  display:inline-block;
+  width:50px;
+  height:50px;
+  
+}
+
+.alt {
+  margin-top: 10px;
+  margin-left: 20px;
+  background:
+    linear-gradient(#000,#000),
+    linear-gradient(#000,#000);
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+}
+
+textarea {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 500px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+label{
+  display: block;
+  margin: 20px;
+  color:#0000ff;
+}
+.button {
+  background-color: #4CAF50; /* Зеленый цвет */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #008CBA;
+  width: 500px;
+  margin-left:20px;
+}
+.name {
+margin-left:500px;
+color:white;
+padding:20px;
+font-size:20px;
+}
+.nav-links {
+       font-family: Arial, sans-serif;
+       color:#0000ff;
+       text-decoration: none;
+}
+nav ul li a {
+  
+      text-decoration: none;
+
+}
+ </style>
+</head>
+<body>
+<!--
+ Вставка рекламного блока от Гугл.
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ИМЯ_БЛОКА
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="КОД_КЛИЕНТА"
+     data-ad-slot="ИДЕНТИФИКАТОР"
+     data-ad-format="auto"></ins>
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script>
+document.getElementById('myButton').onclick = myFunction;
+
+function myFunction() {
+  alert('Вы нажали на кнопку!');
+}
+</script>
+
+-->
+<script>
+
+function myFunction() {
+  alert('Вы нажали на кнопку!');
+}
+</script>
+
+
+<div class="header"><div class="name">конструктор чат бота</div></div>
+                
+<nav>
+         <ul class="nav-links">
+            <li><a href="#">Зарегистрироваться</a></li>
+            <li><a href="#">Конструктор</a></li>
+            <li><a href="#">Чат бот</a></li>           
+            <li><a href="#">Выйти</a></li>
+        </ul>
+    </nav>
+  
+
+<!-- Вопрос чат бота пользователю -->
+<label for="story">Введите вопрос чат бота пользователю</label>
+<textarea id="story" name="story" rows="5" cols="33">
+Вопрос чат бота...
+</textarea>
+<p/>
+<button class="myButton" onclick="myFunction()">Сохранить</button>
+<!-- Ответ пользователя чат боту -->
+<label for="story">Введите ответ пользователя чат боту</label>
+<textarea id="story" name="story" rows="5" cols="33">
+Ответ пользователя...
+</textarea>
+<p/>
+<button class="button">Сохранить</button>
+<table>
+<tr>
+<td><div class="plus alt" title="" align="center"></div></td>
+<td><label for="story">Добавить новый вариант ответа пользователя чат боту</label></td>
+</tr>
+</table>
+<table>
+<tr>
+<td><div class="plus alt" title="" align="center"></div></td>
+<td><label for="story">Добавить новый диалог чат бота</label></td>
+</tr>
+</table>
+
+</body>
+</html>
