@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="utf-8">
 <title></title>
 <style>
 html,
@@ -66,7 +67,7 @@ body {
 </head>
 <body>
 <div class="left">
-  <div class="msg_user" id="msg_userr"></div>  
+  <div class="msg_user" id="msg_userr">Мама мыла Раму</div>  
 </div>
 <div class="right">
   <input class="msg_bot" type="button" value="Рама улыбался" onClick = "up();"/></div>
@@ -78,7 +79,7 @@ body {
 <script>
  function up(){
 alert("up");
-document.getElementById("msg_userr").innerHTML += '<p>Новый HTML-текст</p>';
+document.getElementById("msg_userr").innerHTML = '<p>Новый текст</p>';
           }
 </script>
 </body>
